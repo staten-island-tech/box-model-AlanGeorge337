@@ -1,15 +1,67 @@
-body{
-    background-image:
-        url('pics/background-gym.jpg');
-    background-size: cover;
-    background-position: cover;
-   
+html{
+    font-size: 62.5%;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.title{
-    height: 100px;
+body{
+    background-image: 
+        url('pics/background-gym.jpg');
+    background-size: cover;
+    background-position: cover;
+   
+}
+
+.whole_page{
+    height: 100rem;
     position: relative;
+    font-size: 3rem;
+}
+
+.title{
+    position: absolute;
+    color: whitesmoke;
+    font-family:'Anton', sans-serif;
+    text-transform: capitalize;
+    top: 0%;
+    left: 30%;
+    
+}
+
+.content{
+    position: absolute;
+    color: turquoise;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box{
+    position: relative;
+    color: cadetblue;
+    height: 100rem;
+    width: 10rem;
+    margin: 0% auto;
+}
+
+.img{
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#number_one{
+    height: 45rem;
+    z-index: 10;
+    left: 400%;
+    top: 50%;
+}
+
+#number_two{
+    height: 45rem;
+    z-index: 20;
+    left: -100%;
+    top: 5%;
 }
